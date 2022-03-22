@@ -8,6 +8,17 @@ screens and manage navigation History
 
 ```
 
+**New Line Implementation in React Native**
+
+```
+
+<Text style={styles.Heading}>
+          Welcome{'\n'}
+          back
+</Text>
+
+```
+
 **Notes By**
 
 ```

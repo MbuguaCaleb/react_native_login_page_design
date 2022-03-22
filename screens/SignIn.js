@@ -41,6 +41,9 @@ const SignIn = ({ navigation }) => {
             <Text style={styles.ButtonText}>Sign In</Text>
           </TouchableOpacity>
         </View>
+        <TouchableOpacity style={styles.TextButton} onPress={navigate}>
+          <Text style={styles.SignUpText}>Sign Up</Text>
+        </TouchableOpacity>
       </View>
     </View>
   )
@@ -109,6 +112,15 @@ const styles = StyleSheet.create({
   ButtonText: {
     fontWeight: 'bold',
     fontSize: 18,
+  },
+  SignUpText: {
+    color: 'gray',
+  },
+  TextButton: {
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 20,
   },
 })
 export default SignIn
